@@ -1,11 +1,11 @@
-import turtle as t
+import turtle
 
 
-def drawHanger(startcoords):
- 
+def drawHanger(startx, starty, turtle: turtle.Turtle):
+    t = turtle
     
     t.penup()
-    t.goto(startcoords)
+    t.goto(startx, starty)
     t.pendown()
     t.setheading(90)   
     t.forward(50)      
@@ -15,7 +15,7 @@ def drawHanger(startcoords):
     t.pensize(5)      
     
     t.penup()
-    t.goto(startcoords)
+    t.goto(startx, starty)
     t.pendown()
     t.setheading(205) 
     t.forward(320)     
@@ -24,7 +24,7 @@ def drawHanger(startcoords):
     t.forward(60)     
     
     t.penup()
-    t.goto(startcoords)
+    t.goto(startx, starty)
     t.pendown()
     t.setheading(335) 
     t.forward(320)     
