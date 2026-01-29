@@ -65,6 +65,7 @@ make_d(t, 40, p)
 t.penup()
 t.shape('turtle')
 t.color('green')
+t.speed(10)
 p=t.circle(250, extent = 495)
 
 t.write('made with turtle.py')
