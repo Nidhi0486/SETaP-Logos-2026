@@ -35,7 +35,7 @@ def drawR(startx, starty):
 
 
     t.setheading(90)
-    t.forward(75)
+    t.forward(90)
 
 
     t.right(90)
@@ -43,12 +43,12 @@ def drawR(startx, starty):
     t.circle(-15, 180)
 
     t.left(120)
-    t.forward(50)
+    t.forward(65)
 
     t.right(90)
     t.forward(10)
     t.right(90)
-    t.forward(50)
+    t.forward(65)
     t.penup()
 
     t.goto(startx, starty)
@@ -58,7 +58,7 @@ def drawR(startx, starty):
 
 
     t.right(90)
-    t.forward(85)
+    t.forward(100)
     t.right(90)
     t.forward(20)
     t.circle(-25, 165)
