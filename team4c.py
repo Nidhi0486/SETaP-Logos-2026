@@ -111,6 +111,8 @@ def drawH(startx, starty):
     t.goto(startx, starty)
     t.pendown()
     t.setheading(360)
+    t.fillcolor("lightblue")
+    t.begin_fill()
     # Draw the left vertical bar
     t.left(90)
     t.forward(100)
@@ -142,6 +144,7 @@ def drawH(startx, starty):
     t.forward(40)
     t.right(90)
     t.forward(20)
+    t.end_fill()
     
     
 def drawF(startx, starty):

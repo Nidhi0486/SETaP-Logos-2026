@@ -5,6 +5,8 @@ def drawH(startx, starty, turtle: turtle.Turtle):
     t = turtle
     t.goto(startx, starty)
     # Draw the left vertical bar
+    t.fillcolor("lightblue")
+    t.begin_fill()
     t.left(90)
     t.forward(100)
     t.right(90)
@@ -35,5 +37,6 @@ def drawH(startx, starty, turtle: turtle.Turtle):
     t.forward(40)
     t.right(90)
     t.forward(20)
+    t.end_fill()
 
 turtle.done()
