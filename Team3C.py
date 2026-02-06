@@ -126,8 +126,5 @@ draw_graduation_cap(-250, 80, 100)
 
 write_classmates_text(-280, -50)
 
-print("Logo complete!")
-print("Click on the window to close.")
-
 
 screen.exitonclick()
